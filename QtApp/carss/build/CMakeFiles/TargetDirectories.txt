@@ -1,0 +1,9 @@
+C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build/CMakeFiles/carss.dir
+C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build/CMakeFiles/edit_cache.dir
+C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build/CMakeFiles/rebuild_cache.dir
+C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build/CMakeFiles/list_install_components.dir
+C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build/CMakeFiles/install.dir
+C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build/CMakeFiles/install/local.dir
+C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build/CMakeFiles/install/strip.dir
+C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build/CMakeFiles/carss_autogen_timestamp_deps.dir
+C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build/CMakeFiles/carss_autogen.dir

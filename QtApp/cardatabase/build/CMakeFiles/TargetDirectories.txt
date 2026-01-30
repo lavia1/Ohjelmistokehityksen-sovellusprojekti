@@ -1,0 +1,9 @@
+C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/cardatabase/build/CMakeFiles/cardatabase.dir
+C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/cardatabase/build/CMakeFiles/edit_cache.dir
+C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/cardatabase/build/CMakeFiles/rebuild_cache.dir
+C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/cardatabase/build/CMakeFiles/list_install_components.dir
+C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/cardatabase/build/CMakeFiles/install.dir
+C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/cardatabase/build/CMakeFiles/install/local.dir
+C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/cardatabase/build/CMakeFiles/install/strip.dir
+C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/cardatabase/build/CMakeFiles/cardatabase_autogen_timestamp_deps.dir
+C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/cardatabase/build/CMakeFiles/cardatabase_autogen.dir

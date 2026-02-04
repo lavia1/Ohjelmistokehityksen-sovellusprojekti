@@ -1,17 +1,5 @@
-C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build/carss_autogen/EWIEGA46WW/moc_carsinfo.cpp: C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/carsinfo.h \
+C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build/carss_autogen/EWIEGA46WW/moc_mydata.cpp: C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/mydata.h \
   C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build/carss_autogen/moc_predefs.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QFlags \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QIODevice \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonArray \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonDocument \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonObject \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QMetaType \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QObject \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QSharedDataPointer \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QString \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QUrl \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QVariant \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QVector \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic.h \
@@ -19,18 +7,12 @@ C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build/cars
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qbasicatomic.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearray.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearraylist.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qcborcommon.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qcborvalue.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qchar.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qcompilerdetection.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qconfig.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qcryptographichash.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatetime.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qdebug.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qflags.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qglobal.h \
@@ -39,15 +21,9 @@ C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build/cars
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qiodevice.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qiterator.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsonarray.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsondocument.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsonobject.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsonvalue.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qline.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qlist.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qlocale.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qlogging.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qmap.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qmargins.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qnamespace.h \
@@ -62,9 +38,7 @@ C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build/cars
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qrect.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qregexp.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qregularexpression.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qset.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
@@ -78,11 +52,7 @@ C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build/cars
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsysinfo.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qtcore-config.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qtextstream.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qurl.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/quuid.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qvariant.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qvector.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
@@ -108,24 +78,6 @@ C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build/cars
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qtransform.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QNetworkAccessManager \
-  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QNetworkReply \
-  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QNetworkRequest \
-  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QSslConfiguration \
-  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
-  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qabstractsocket.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qnetworkaccessmanager.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qnetworkreply.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qnetworkrequest.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qssl.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslcertificate.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslconfiguration.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslerror.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslsocket.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qtcpsocket.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qtnetwork-config.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
   C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QDialog \
   C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qdialog.h \
   C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
@@ -304,6 +256,4 @@ C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build/cars
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/sys/types.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/environment.h \
-  C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/mydata.h
+  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h

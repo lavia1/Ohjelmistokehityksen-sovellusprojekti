@@ -374,6 +374,9 @@ carss_autogen/timestamp: \
 	C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/main.cpp \
 	C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/mainwindow.cpp \
 	C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/mainwindow.h \
+	C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/mydata.cpp \
+	C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/mydata.h \
 	C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/carsinfo.ui \
 	C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/mainwindow.ui \
+	C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/mydata.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

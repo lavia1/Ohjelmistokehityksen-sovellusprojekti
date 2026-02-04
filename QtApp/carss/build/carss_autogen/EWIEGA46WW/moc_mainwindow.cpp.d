@@ -310,4 +310,5 @@ C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build/cars
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
   C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/carsinfo.h \
-  C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/environment.h
+  C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/environment.h \
+  C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/mydata.h

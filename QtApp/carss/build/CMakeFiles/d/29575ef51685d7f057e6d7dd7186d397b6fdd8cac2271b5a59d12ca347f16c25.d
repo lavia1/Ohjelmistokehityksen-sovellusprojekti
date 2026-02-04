@@ -374,6 +374,9 @@ carss_autogen/timestamp: \
   ../main.cpp \
   ../mainwindow.cpp \
   ../mainwindow.h \
+  ../mydata.cpp \
+  ../mydata.h \
   ../carsinfo.ui \
   ../mainwindow.ui \
+  ../mydata.ui \
   C:/Qt/Tools/CMake_64/bin/cmake.exe

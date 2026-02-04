@@ -89,6 +89,14 @@ build CMakeFiles/carss.dir/carsinfo.cpp.obj: CXX_COMPILER__carss_Debug C$:/Sovel
   OBJECT_DIR = CMakeFiles\carss.dir
   OBJECT_FILE_DIR = CMakeFiles\carss.dir
 
+build CMakeFiles/carss.dir/mydata.cpp.obj: CXX_COMPILER__carss_Debug C$:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/mydata.cpp || cmake_object_order_depends_target_carss
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles\carss.dir\mydata.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
+  INCLUDES = -IC:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build -IC:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss -IC:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/build/carss_autogen/include -isystem C:/Qt/5.15.2/mingw81_64/include -isystem C:/Qt/5.15.2/mingw81_64/include/QtWidgets -isystem C:/Qt/5.15.2/mingw81_64/include/QtGui -isystem C:/Qt/5.15.2/mingw81_64/include/QtANGLE -isystem C:/Qt/5.15.2/mingw81_64/include/QtCore -isystem C:/Qt/5.15.2/mingw81_64/./mkspecs/win32-g++ -isystem C:/Qt/5.15.2/mingw81_64/include/QtNetwork
+  OBJECT_DIR = CMakeFiles\carss.dir
+  OBJECT_FILE_DIR = CMakeFiles\carss.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target carss
@@ -97,7 +105,7 @@ build CMakeFiles/carss.dir/carsinfo.cpp.obj: CXX_COMPILER__carss_Debug C$:/Sovel
 #############################################
 # Link the executable carss.exe
 
-build carss.exe: CXX_EXECUTABLE_LINKER__carss_Debug CMakeFiles/carss.dir/carss_autogen/mocs_compilation.cpp.obj CMakeFiles/carss.dir/main.cpp.obj CMakeFiles/carss.dir/mainwindow.cpp.obj CMakeFiles/carss.dir/environment.cpp.obj CMakeFiles/carss.dir/carsinfo.cpp.obj | C$:/Qt/5.15.2/mingw81_64/lib/libQt5Widgets.a C$:/Qt/5.15.2/mingw81_64/lib/libQt5Gui.a C$:/Qt/5.15.2/mingw81_64/lib/libQt5Network.a C$:/Qt/5.15.2/mingw81_64/lib/libQt5Core.a C$:/Qt/5.15.2/mingw81_64/lib/libqtmain.a || carss_autogen carss_autogen_timestamp_deps
+build carss.exe: CXX_EXECUTABLE_LINKER__carss_Debug CMakeFiles/carss.dir/carss_autogen/mocs_compilation.cpp.obj CMakeFiles/carss.dir/main.cpp.obj CMakeFiles/carss.dir/mainwindow.cpp.obj CMakeFiles/carss.dir/environment.cpp.obj CMakeFiles/carss.dir/carsinfo.cpp.obj CMakeFiles/carss.dir/mydata.cpp.obj | C$:/Qt/5.15.2/mingw81_64/lib/libQt5Widgets.a C$:/Qt/5.15.2/mingw81_64/lib/libQt5Gui.a C$:/Qt/5.15.2/mingw81_64/lib/libQt5Network.a C$:/Qt/5.15.2/mingw81_64/lib/libQt5Core.a C$:/Qt/5.15.2/mingw81_64/lib/libqtmain.a || carss_autogen carss_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/5.15.2/mingw81_64/lib/libQt5Widgets.a  C:/Qt/5.15.2/mingw81_64/lib/libQt5Gui.a  C:/Qt/5.15.2/mingw81_64/lib/libQt5Network.a  C:/Qt/5.15.2/mingw81_64/lib/libQt5Core.a  C:/Qt/5.15.2/mingw81_64/lib/libqtmain.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -184,7 +192,7 @@ build carss_autogen_timestamp_deps: phony CMakeFiles/carss_autogen_timestamp_dep
 #############################################
 # Utility command for carss_autogen
 
-build carss_autogen: phony CMakeFiles/carss_autogen carss_autogen/include/ui_mainwindow.h carss_autogen/include/ui_carsinfo.h carss_autogen/timestamp carss_autogen/mocs_compilation.cpp carss_autogen_timestamp_deps
+build carss_autogen: phony CMakeFiles/carss_autogen carss_autogen/include/ui_mainwindow.h carss_autogen/include/ui_carsinfo.h carss_autogen/include/ui_mydata.h carss_autogen/timestamp carss_autogen/mocs_compilation.cpp carss_autogen_timestamp_deps
 
 
 #############################################
@@ -200,13 +208,13 @@ build carss_autogen/timestamp carss_autogen/mocs_compilation.cpp | ${cmake_ninja
 #############################################
 # Phony custom command for CMakeFiles\carss_autogen_timestamp_deps
 
-build CMakeFiles/carss_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/carss_autogen_timestamp_deps: phony C$:/Qt/5.15.2/mingw81_64/bin/moc.exe C$:/Qt/5.15.2/mingw81_64/bin/uic.exe C$:/Qt/5.15.2/mingw81_64/lib/libQt5Widgets.a
+build CMakeFiles/carss_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/carss_autogen_timestamp_deps: phony C$:/Qt/5.15.2/mingw81_64/bin/uic.exe C$:/Qt/5.15.2/mingw81_64/bin/moc.exe C$:/Qt/5.15.2/mingw81_64/lib/libQt5Widgets.a
 
 
 #############################################
 # Phony custom command for CMakeFiles\carss_autogen
 
-build CMakeFiles/carss_autogen carss_autogen/include/ui_mainwindow.h carss_autogen/include/ui_carsinfo.h | ${cmake_ninja_workdir}CMakeFiles/carss_autogen ${cmake_ninja_workdir}carss_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}carss_autogen/include/ui_carsinfo.h: phony carss_autogen/timestamp || carss_autogen_timestamp_deps
+build CMakeFiles/carss_autogen carss_autogen/include/ui_mainwindow.h carss_autogen/include/ui_carsinfo.h carss_autogen/include/ui_mydata.h | ${cmake_ninja_workdir}CMakeFiles/carss_autogen ${cmake_ninja_workdir}carss_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}carss_autogen/include/ui_carsinfo.h ${cmake_ninja_workdir}carss_autogen/include/ui_mydata.h: phony carss_autogen/timestamp || carss_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

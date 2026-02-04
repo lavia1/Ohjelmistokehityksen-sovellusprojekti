@@ -9,6 +9,7 @@
 #include <QJsonObject>
 #include <QJsonArray>
 #include "environment.h"
+#include "mydata.h"
 namespace Ui {
 class Carsinfo;
 }
@@ -38,7 +39,8 @@ private:
 private slots:
     void btnMyDataClicked();
     void MyDataSlot();
-
+    void on_btnDelete_clicked();
+    void deleteFinished();
 };
 
 #endif // CARSINFO_H

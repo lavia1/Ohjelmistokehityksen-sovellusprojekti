@@ -30,13 +30,19 @@ void MainWindow::btnAddSlot(){
 void MainWindow::getCars()
 {
     QByteArray responseData = reply->readAll();
-    qDebug() << responseData;
+        qDebug() << responseData;
 
-    Carsinfo *objCarsinfo = new Carsinfo(this);
-    objCarsinfo->setid(ui->textid->text());
-    objCarsinfo->setModel(ui->textModel->text());
-    objCarsinfo->setBranch(ui->textBranch->text());
+        QJsonDocument doc = QJsonDocument::fromJson(responseData);
+        if(!doc.isObject()) return;
 
-    objCarsinfo->show();
+        QJsonObject obj = doc.object();
+        QString newId = obj["id"].toString();
+
+        Carsinfo *objCarsinfo = new Carsinfo(this);
+        objCarsinfo->setid(newId);
+        objCarsinfo->setModel(ui->textModel->text());
+        objCarsinfo->setBranch(ui->textBranch->text());
+
+        objCarsinfo->show();
 }
 

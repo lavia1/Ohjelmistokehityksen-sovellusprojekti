@@ -90,6 +90,12 @@
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
+		],
+		[
+			"C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/mydata.h",
+			"MU",
+			"EWIEGA46WW/moc_mydata.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -162,6 +168,11 @@
 		],
 		[
 			"C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Sovellusprojekti/Ohjelmistokehityksen-sovellusprojekti/QtApp/carss/mydata.cpp",
 			"MU",
 			null
 		]

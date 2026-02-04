@@ -24,6 +24,9 @@ set(PROJECT_SOURCES
         carsinfo.h
         carsinfo.cpp
         carsinfo.ui
+        mydata.ui
+        mydata.h
+        mydata.cpp
 
 )
 

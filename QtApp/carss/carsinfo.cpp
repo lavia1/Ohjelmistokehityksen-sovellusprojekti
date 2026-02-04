@@ -1,5 +1,6 @@
 #include "carsinfo.h"
 #include "ui_carsinfo.h"
+#include <QDebug>
 
 Carsinfo::Carsinfo(QWidget *parent) :
     QDialog(parent),
@@ -31,7 +32,7 @@ void Carsinfo::setBranch(const QString &newBranch)
 void Carsinfo::setid(const QString &newid)
 {
     id = newid;
-    ui->labelBranch->setText(id);
+    ui->labelid->setText(id);
 }
 
 void Carsinfo::btnMyDataClicked()
@@ -50,11 +51,10 @@ void Carsinfo::MyDataSlot()
         reply->deleteLater();
 
         QJsonDocument doc = QJsonDocument::fromJson(responseData);
-        if (!doc.isArray()) return;  // oletetaan että palvelin palauttaa JSON-arrayn
+        if (!doc.isArray()) return;
 
         QJsonArray carsArray = doc.array();
 
-        // Tyhjennä nykyiset tiedot (jos käytät esimerkiksi QTableWidget tai QListWidget)
         ui->listCars->clear();
 
         for (const QJsonValue &value : carsArray) {
@@ -64,7 +64,37 @@ void Carsinfo::MyDataSlot()
             QString id = obj["id"].toString();
 
             QString displayText = id + ": " + model + " (" + branch + ")";
-            ui->listCars->addItem(displayText); // listCars = QListWidget UI:ssa
+            QListWidgetItem *item = new QListWidgetItem(displayText);
+            item->setData(Qt::UserRole, id);   // ← id talteen oikein
+            ui->listCars->addItem(item);
         }
 
 }
+
+void Carsinfo::on_btnDelete_clicked()
+{
+    qDebug() << "DELETE CLICKED";
+    QListWidgetItem * item = ui->listCars->currentItem();
+    if (!item) return;
+
+    QString id = item->data(Qt::UserRole).toString();
+    qDebug() << "Deleting id:" << id;
+
+    QString url = environment::base_url()+"cars/" + id;
+    QNetworkRequest request(url);
+
+    reply = manager->deleteResource(request);
+    connect(reply, &QNetworkReply::finished,
+            this, &Carsinfo::deleteFinished);
+}
+void Carsinfo::deleteFinished()
+{
+    QByteArray response = reply->readAll();
+       qDebug() << "DELETE response:" << response;
+       qDebug() << "HTTP error:" << reply->error();
+
+       reply->deleteLater();
+       btnMyDataClicked(); // päivitä lista
+}
+
+

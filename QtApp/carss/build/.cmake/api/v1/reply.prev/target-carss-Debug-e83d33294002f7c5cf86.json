@@ -40,19 +40,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 47,
+				"line" : 49,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 63,
+				"line" : 65,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 53,
+				"line" : 55,
 				"parent" : 0
 			},
 			{
@@ -335,8 +335,10 @@
 				3,
 				6,
 				7,
-				10,
-				11
+				11,
+				12,
+				13,
+				14
 			]
 		},
 		{
@@ -345,14 +347,15 @@
 			[
 				4,
 				9,
-				12
+				10,
+				15
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				13
+				16
 			]
 		}
 	],
@@ -415,6 +418,16 @@
 			"sourceGroupIndex" : 2
 		},
 		{
+			"backtrace" : 1,
+			"path" : "mydata.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mydata.h",
+			"sourceGroupIndex" : 1
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/carss_autogen/include/ui_mainwindow.h",
@@ -424,6 +437,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/carss_autogen/include/ui_carsinfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/carss_autogen/include/ui_mydata.h",
 			"sourceGroupIndex" : 1
 		},
 		{

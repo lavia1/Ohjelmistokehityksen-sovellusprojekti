@@ -65,7 +65,7 @@ void Carsinfo::MyDataSlot()
 
             QString displayText = id + ": " + model + " (" + branch + ")";
             QListWidgetItem *item = new QListWidgetItem(displayText);
-            item->setData(Qt::UserRole, id);   // ← id talteen oikein
+            item->setData(Qt::UserRole, id);
             ui->listCars->addItem(item);
         }
 
@@ -94,7 +94,7 @@ void Carsinfo::deleteFinished()
        qDebug() << "HTTP error:" << reply->error();
 
        reply->deleteLater();
-       btnMyDataClicked(); // päivitä lista
+       btnMyDataClicked();
 }
 
 
